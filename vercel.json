@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "regions": ["gru1"],
+  "functions": {
+    "api/**/*.js": {
+      "maxDuration": 60
+    }
+  }
+}
